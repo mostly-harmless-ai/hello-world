@@ -14,16 +14,16 @@ These prerequisites are the minimum necessary for every other challenge.
 
 ## Setting up the coding environment
 
-Navigate to [this task's repository in Github](https://github.com/mostly-harmless-ai/task-hello-world).
+Navigate to [this task's repository in Github](https://github.com/mostly-harmless-ai/hello-world).
 On the top right corner of the main window you'll see a button titled `Fork`; click on it.
-Now follow the instructions and you'll have your own copy of the challenge in your own Github namespace.
+Follow the instructions and you'll have your own copy of the challenge in your own Github namespace.
 
 Once forked, you can clone your own copy of the repository.
 If your Github username is `user`, you can achieve this by typing the following on a terminal:
 
-    git clone https://github.com/user/task-hello-world
+    git clone https://github.com/user/hello-world
 
-Now you can open this folder on your desired editor.
+Open the  `hello-world` folder on your desired editor.
 You should see a `Readme.md` file with these same instructions, and some other files we'll go over in a minute.
 
 It's time to set up your coding environment.
@@ -59,3 +59,13 @@ If you installed the required dependencies, you should be able to run:
     pytest
 
 And get a pretty green message saying everything is OK!
+
+## Submitting your code
+
+Once solved and tested locally, you're ready to push your code.
+Start by pushing to your own fork, this should be as easy as:
+
+    git push origin main
+
+Go to your task fork in Github and look for the `Contribute` menu just under the green `Code`button.
+Click there and then on `Create pull request`.
