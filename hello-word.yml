@@ -1,0 +1,7 @@
+name: helloword
+
+dependencies:
+  - python==3.7
+  - pip
+  - pip:
+    - pytest==6.2.2
